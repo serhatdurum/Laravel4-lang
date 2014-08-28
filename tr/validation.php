@@ -4,9 +4,8 @@
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Language
- * @version  4.x
- * @author   Sinan Eldem <sinan@sinaneldem.com.tr>
- * @link     http://sinaneldem.com.tr
+ * @version  4.3
+ * @author   Serhat Durum <serhatdurum@gmail.com>
  */
 
 return array(
@@ -36,6 +35,7 @@ return array(
         "string"  => ":attribute :min - :max arasında karakterden oluşmalıdır.",
         "array"   => ":attribute :min - :max arasında nesneye sahip olmalıdır."
     ),
+    "boolean"        => ":attribute doğru veya yanlış olmalıdır.",
     "confirmed"      => ":attribute tekrarı eşleşmiyor.",
     "date"            => ":attribute geçerli bir tarih olmalıdır.",
     "date_format"     => ":attribute :format biçimi ile eşleşmiyor.",
@@ -43,6 +43,7 @@ return array(
     "digits"          => ":attribute :digits rakam olmalıdır.",
     "digits_between"  => ":attribute :min ile :max arasında rakam olmalıdır.",
     "email"          => ":attribute biçimi geçersiz.",
+    "filled"         => ":attribute alanı zorunludur.",
     "exists"         => "Seçili :attribute geçersiz.",
     "image"          => ":attribute alanı resim dosyası olmalıdır.",
     "in"             => ":attribute değeri geçersiz.",
@@ -79,6 +80,7 @@ return array(
     ),
     "unique"         => ":attribute daha önceden kayıt edilmiş.",
     "url"            => ":attribute biçimi geçersiz.",
+    "timezone"       => ":attribute geçerli bir zamandilimi olmalıdır.",
 
     /*
     |--------------------------------------------------------------------------
