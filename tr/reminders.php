@@ -4,9 +4,8 @@
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Language
- * @version  4.x
- * @author   Sinan Eldem <sinan@sinaneldem.com.tr>
- * @link     http://sinaneldem.com.tr
+ * @version  4.3
+ * @author   Serhat Durum <serhatdurum@gmail.com>
  */
 
 return array(
@@ -29,5 +28,7 @@ return array(
     "token"    => "Şifre sıfırlama bileti geçersiz.",
 
     "sent"     => "Şifre sıfırlama başarı ile gönderildi!",
+    
+    "reset" => "Şifre sıfırlandı!"
 
 );
