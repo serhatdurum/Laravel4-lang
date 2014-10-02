@@ -1,4 +1,4 @@
-Laravel 4 (4.3 uyumlu) Türkçe Dil Dosyaları
+Laravel 4 (5.0 uyumlu) Türkçe Dil Dosyaları
 =============
 
 ###Kullanım
